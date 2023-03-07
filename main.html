@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ================================================== GFONT ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+
+    <!-- ================================================== CSS ================================================== -->
+    <link rel="stylesheet" href="style.css">
+    <title>Boston Dynamics</title>
+</head>
+
+<body>
+    <!-- ================================================== CONTENT ================================================== -->
+    <div class="container">
+        <!-- -------------------------------------------------- HOME -------------------------------------------------- -->
+        <section class="home-sect" id="home">
+            <div class="home-content">
+                <h1>ATLAS</h1>
+                <div class="home-desc">
+                    <p>Atlas is a research platform designed to push the limits of whole-body mobility.</p>
+                    <a href="#overviews">NEXT</a>
+                </div>
+            </div>
+            <video autoplay muted loop>
+                <source src="images/h-landing.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- ================================================== NAVBAR ================================================== -->
+        <div class="sticky-area">
+            <nav>
+                <div class="nav-left">
+                    <a href="#home">
+                        <h1><span class="logo"></span><span>Boston</span>Dynamics</h1>
+                    </a>
+                </div>
+                <ul class="nav-right">
+                    <li><a href="#overviews">OVERVIEWS</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#resources">RESOURCES</a></li>
+                </ul>
+            </nav>
+
+            <!-- -------------------------------------------------- OVERVIEWS -------------------------------------------------- -->
+            <section class="overviews-sect" id="overviews">
+                <div class="sect-title">
+                    <h1>OVERVIEWS</h1>
+                    <!-- <p>Atlas is an R&D platform pushing the bounds of robotics forward.</p> -->
+                </div>
+                <div class="card-box">
+
+                    <!-- ------------------------ kartu atas ------------------------ -->
+                    <div class="card top">
+                        <div class="card-desc">
+                            <h1>HIGH POWER</h1>
+                            <p>Atlas has one of the world’s most compact mobile hydraulic systems. A custom battery,
+                                valves,
+                                and a
+                                compact hydraulic power unit enable Atlas to deliver high power to any of its 28
+                                hydraulic
+                                joints for
+                                impressive feats of mobility.</p>
+                            <h2>ACTUATION</h2>
+                            <p>Hydraulic</p>
+                        </div>
+                        <img class="card-img" src="images/o-highpower.jpg">
+                    </div>
+
+                    <!-- ------------------------ kartu bawah ------------------------ -->
+                    <div class="bottom">
+                        <div class="card">
+                            <div class="card-desc">
+                                <h1>DYNAMICS</h1>
+                                <p>Atlas’s advanced control system enables highly diverse and agile locomotion, while
+                                    algorithms reason through complex dynamic interactions involving the whole body and
+                                    environment to plan movements.</p>
+                                <h2>SPEED</h2>
+                                <p>2.5 m/s</p>
+                            </div>
+                            <img class="card-img" src="images/o-dynamics.jpg">
+                        </div>
+                        <div class="card">
+                            <div class="card-desc">
+                                <h1>LIGHWIEGHT</h1>
+                                <p>Atlas has one of the world’s most compact mobile hydraulic systems. A custom battery,
+                                    valves,
+                                    and a
+                                    compact hydraulic power unit enable Atlas to deliver high power to any of its 28
+                                    hydraulic
+                                    joints for
+                                    impressive feats of mobility.</p>
+                                <h2>WEIGHT</h2>
+                                <p>89kg</p>
+                            </div>
+                            <img class="card-img" src="images/o-lightweight.jpg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------------------------------------------- FEATURES -------------------------------------------------- -->
+            <section class="features-sect" id="features">
+                <div class="sect-title">
+                    <h1>FEATURES</h1>
+                </div>
+                <h1>WHOLE BODY COORDINATION AND DYNAMIC MOTION</h1>
+                <p>Atlas leaverages its whole body to move with human-like grace and speed.</p>
+
+                <!-- ------------------------ gambar ------------------------ -->
+                <img class="features-img" src="images/h-landing.jpg">
+                
+                <!-- ------------------------ tombol ------------------------ -->
+                <div class="units">
+                    <div class="unit">
+                        <label for="behavior"><img class="unit-img" src="images/F-behavior.png"></label>
+                    </div>
+                    <input type="radio" name="features" class="behavior" id="behavior">
+                    <div class="unit-desc behavior">
+                        <h1>BEHAVIOR LIBRARIES</h1>
+                        <p>Template motions are created using trajectory optimization and combined into complex routine.
+                        </p>
+                    </div>
+                    <div class="unit">
+                        <label for="perception"><img class="unit-img" src="images/F-perception.png"></label>
+                    </div>
+                    <input type="radio" name="features" class="perception" id="perception">
+                    <div class="unit-desc perception">
+                        <h1>REAL-TIME PERCEPTION</h1>
+                        <p>Atlas uses depth sensor to generate point clouds of the enviroment and detects its
+                            surrondings.</p>
+                    </div>
+                    <div class="unit">
+                        <label for="predictive"><img class="unit-img" src="images/F-predictive.png"></label>
+                    </div>
+                    <input type="radio" name="features" class="predictive" id="predictive">
+                    <div class="unit-desc predictive">
+                        <h1>MODEL-PREDICTIVE CONTROL</h1>
+                        <p>Atlas uses models of the robot's dynamics to predict how its motion will evolve over time
+                            and adjust.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------------------------------------------- RESOURCES -------------------------------------------------- -->
+            <section class="resources-sect" id="resources">
+                <div class="sect-title">
+                    <h1>RESOURCES</h1>
+                </div>
+                <h1>RECENT NEWS</h1>
+
+                <!-- ------------------------ kartu-kartu artikel ------------------------ -->
+                <div class="news">
+                    <div class="new">
+                        <img src="images/R-1.jpg">
+                        <div class="new-desc">
+                            <p>BLOG</p>
+                            <h1>LEAPS, BOUNDS, AND BACKFLIPS</h1>
+                            <p>By training Atlas to maneuver its way through complex parkour courses, Boston Dynamics engineers
+                                develop
+                                new movements inspired by human behaviors and push the humanoid robot to its limits.</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <img src="images/R-2.png">
+                        <div class="new-desc">
+                            <p>BLOG</p>
+                            <h1>DO YOU LOVE ME?</h1>
+                            <p>By training Atlas to maneuver its way through complex parkour courses, Boston Dynamics engineers
+                                develop
+                                new movements inspired by human behaviors and push the humanoid robot to its limits.</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <img src="images/R-3.jpeg">
+                        <div class="new-desc">
+                            <p>BLOG</p>
+                            <h1>BEHIND THOSE DANCING ROBOTS, SCIENTISTS HAD TO BUST A MOVE</h1>
+                            <p>By training Atlas to maneuver its way through complex parkour courses, Boston Dynamics engineers
+                                develop
+                                new movements inspired by human behaviors and push the humanoid robot to its limits.</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <img src="images/R-4.jpg">
+                        <div class="new-desc">
+                            <p>BLOG</p>
+                            <h1>RECENT PROGRESS ON ATLAS, THE WORLD’S MOST DYNAMIC HUMANOID ROBOT</h1>
+                            <p>By training Atlas to maneuver its way through complex parkour courses, Boston Dynamics engineers
+                                develop
+                                new movements inspired by human behaviors and push the humanoid robot to its limits.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================================================== FOOTER ================================================== -->
+        <footer>
+            <h1 class="footer-left"><span class="logo"></span><span>Boston</span>Dynamics</h1>
+            <div class="footer-right">
+                <ul>
+                    <li>
+                        <h2>PRODUCTS</h2>
+                    </li>
+                    <li>
+                        <p>SPOT</p>
+                    </li>
+                    <li>
+                        <p>SPOT ARM</p>
+                    </li>
+                    <li>
+                        <p>STRETCH</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>SOLUTIONS</h2>
+                    </li>
+                    <li>
+                        <p>INSPECTION</p>
+                    </li>
+                    <li>
+                        <p>ASSET</p>
+                    </li>
+                    <li>
+                        <p>MANAGEMENT</p>
+                    </li>
+                    <li>
+                        <p>CONSTRUCTION</p>
+                    </li>
+                    <li>
+                        <p>MANUFACTURING</p>
+                    </li>
+                    <li>
+                        <p>PUBLIC SAFETY</p>
+                    </li>
+                    <li>
+                        <p>POWER & UTILITIES</p>
+                    </li>
+                    <li>
+                        <p>WAREHOUSE</p>
+                    </li>
+                    <li>
+                        <p>AUTOMATION</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>SHOP</h2>
+                    </li>
+                    <li>
+                        <p>SPOT</p>
+                    </li>
+                    <li>
+                        <p>PAYLOADs</p>
+                    </li>
+                    <li>
+                        <p>EXTRAS</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>RESOURCES</h2>
+                    </li>
+                    <li>
+                        <p>CASE STUDIES</p>
+                    </li>
+                    <li>
+                        <p>WEBINARS</p>
+                    </li>
+                    <li>
+                        <p>BLOG</p>
+                    </li>
+                    <li>
+                        <p>SUPPORT CENTER</p>
+                    </li>
+                    <li>
+                        <p>DEVELOPER</p>
+                    </li>
+                    <li>
+                        <p>DOCUMENTATION</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>COMPANY</h2>
+                    </li>
+                    <li>
+                        <p>ABOUT</p>
+                    </li>
+                    <li>
+                        <p>CAREERS</p>
+                    </li>
+                    <li>
+                        <p>NEWS</p>
+                    </li>
+                    <li>
+                        <p>RESEARCH</p>
+                    </li>
+                    <li>
+                        <p>MEDIA</p>
+                    </li>
+                    <li>
+                        <p>CONTACT</p>
+                    </li>
+                    <li>
+                        <p>ETHICS</p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
